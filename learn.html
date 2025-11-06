@@ -1,0 +1,24 @@
+<html></html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <script type="text/javascript" src="db.js"></script>
+        <div class="grid" id="grid"></div>
+        <div class="details" id="details">
+          <span class="close-btn" id="closeBtn">&times;</span>
+          <div id="detail-steps" class="container">
+            <script id="business_logic">
+                const grid = document.getElementById('grid');
+                for (var i = 0; i < learn.length; i++) {
+                    const div = document.createElement('div');
+                    div.innerHTML = `<div>"${item}"</div>`;
+                    grid.appendChild(div);
+                }
+            </script>
+          </div>
+      </div>
+    </body>
+</html>

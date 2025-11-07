@@ -6,10 +6,8 @@
     </head>
     <body>
         <script type="text/javascript" src="db.js"></script>
-        <div class="grid" id="grid"></div>
-        <div class="details" id="details">
+        <div id="grid" style="overflow-y: scroll;">
           <span class="close-btn" id="closeBtn">&times;</span>
-          <div id="detail-steps" class="container">
             <script id="business_logic">
                 const grid = document.getElementById('grid');
                 for (var i = 0; i < learn.length; i++) {
@@ -18,7 +16,7 @@
                     grid.appendChild(div);
                 }
             </script>
-          </div>
-      </div>
+        </div>
+      </body>
     </body>
 </html>
